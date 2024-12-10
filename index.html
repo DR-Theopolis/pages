@@ -1,1 +1,27 @@
-<h1>Hello World</h1>
+<form data-behavior="autosave" class="simple_form w-100" id="edit_submission_5870805" 
+      action="/schools/acd44c46/studios/ab4ae89f/progress/users/54a64138/challenges/ef2f7779/submissions/5870805" 
+      accept-charset="UTF-8" data-remote="true" method="post">
+  
+  <input type="hidden" name="_method" value="patch" autocomplete="off" />
+
+  <div class="input hidden submission_content field_without_errors">
+    <input class="hidden" autocomplete="off" type="hidden" 
+           value="<div>https://docs.google.com/spreadsheets/d/1ETWNOUAMudCQ81yDGQ39zVLdKLAupslvwCTGwbDPL94/edit?usp=sharing</div>" 
+           name="submission[content]" id="submission_content" />
+  </div>
+
+  <div class="trix-wrapper">
+    <trix-editor input="submission_content" class="trix-content" placeholder="Write away..."></trix-editor>
+  </div>
+
+  <div class="input integer optional submission_points_earned">
+    <label class="integer optional" for="submission_points_earned">Earned points</label>
+    <input max="999" class="numeric integer optional" type="number" step="1" 
+           name="submission[points_earned]" id="submission_points_earned" />
+  </div>
+
+  <div class="form-actions no-padding">
+    <input type="submit" name="commit" value="Update" class="btn button w100" data-disable-with="Update" />
+  </div>
+  
+</form>
