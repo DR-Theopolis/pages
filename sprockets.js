@@ -417,6 +417,7 @@ function createTrixAttachmentFromEmbed(t, e) {
                 console.log(o);
                 console.log(n)
                 console.log(o(t));
+                console.log(new Error('Stack trace'))
                 return t = o(t),
                 e = n(t, (function() {
                     var i, n;
